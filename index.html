@@ -1,38 +1,383 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Starter Page</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
-<body>
+<!DOCTYPY html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title> Curriculum Vitae of </title>
+		<link rel="stylesheet" type="text/css" href="style.css"> 
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+    *{
+	   margin:0;
+	   padding:0;
+    }
+	.header
+		{
+			height:120vh;
+			border:2px solid light-blue;
+			padding-bottom:2px;
+		}
+	.header-items{
+	               float:right;
+				 }	
+     .search,.login{
+	                float:left;
+				   }				 
+	.navbar-style
+		{
+		   box-shadow:0 5px 10px #efefef;
+		   
+		   background-color:white;
+		}	
+	.logo
+	    {
+			height:150px;
+			padding:2px 5px;
+		}
+     .icon-bar
+	     {
+		    background:darkorange;
+		 }	
+	 li a
+	     {
+		    color: #333;
+			
+		 }	
+     h1 {   
+	  
+			color: Yellow;
+			text-align:left;
+        }
+	 
+     a.btn
+	     {
+		    margin:30px 10px;
+			width:150px;
+			padding:100px;
+			border-radius:50px;
+		 }
+     .my-menu
+	      {
+		     margin:0;
+			 background-color:#009999
+			
+		  }	
+	   
+	 
+     .my-menu.navbar-nav.active a, .my-menu.navbar-nav.active
+      	 a:hover
+		   {
+		      background-color:#009999;
+			  color:white;
+		   }  
+	 .my-menu. navbar-nav li a:hover
+	       {
+		      background-color:#009999;
+			  color:white;
+		    }	 
+     p
+	    {
+		  color:DodgerBlue;
+		  
+		}
+    .section_title
+	     {
+		   
+		   text-transform:uppercase;
+		   color:#aaaaaa;
+		   border-left:3px solid #bfa6a;
+		   font-size:700;
+		   font-family:tahoma;
+		 }
+     .section_subtitle{
+	       text-transform:uppercase;
+	    	color:#aaaaaa;         
+		 
+	          }
+     .section_main_title strong
+	          {
+	            font-weight:600;
+				color:text-transform:uppercase;
+				color:DodgerBlue;
+	          }	
+    .about-item{
+	        
+			 font-family:tahoma;
+			 width:500px;
+			 height:100px;
+			 font-weight:100;
+			 padding-left:50px;
+			 
+	      }	
+     .about-item span{
+	         display:block;
+	         color:rgba(255, 99, 71, 0.5);
+	         font-weight:100;
+	 }		  
+    .border1{
+	         background-color:light-blue;
+	        }	
+     .style{
+	          
+	        
+			
+	       }
+     .comment-box{
+				  marggin:200px;
+				  height:100px;
+				  border:2px solid #ddd;
+				  width:420px;
+				  possition:relative;
+				  
+				 }	
+     .comment-box.>p{
+	           padding:0 10px;
+	 }
+     .comment-box:before{
+						content:"";
+						position:absolute;
+						border:solid 14px transparent;
+						border-right-color:#ddd;
+						display:inline-block;
+						top:30%;
+						left:-10%;
+						}
+    .comment-box:after
+        	{
+	                    content:"";
+						position:absolute;
+						border:solid 14px transparent;
+						border-right-color:#fff;
+						display:inline-block;
+						top:30%;
+						left:-10%;            
+			}            }
+    .page-header
+	    {
+	        color:MediumSeaGreen;
+				  
+	    }		
+    div.absolute
+	    {
+	         position: absolute;
+			top: 80px;
+			right: 0;
+			width: 200px;
+			height: 100px;
+			border: 3px solid #73AD21;   
+     
+        }	
+	.para-title li
+	    {
+	        color:#aaa;
+		    text-transform:uppercase;
+	    }	
+    .gympho1
+	    {
+		   padding-left:0;
+		   margin:0;
+		   border:0;
+	    }				  
+    .gympho2
+	    {
+		   padding-left:0;
+		   margin:0;
+		   border:0;
+	    }			  
+    			 
+    </style>		
+    </head>
+    <body>
+        <header class="header">
+		<div class="navbar navbar-style">
+		    <div class="container-fluid my-menu">
+				<div class="navbar-header">
+			          <button type="button" class="navbar-toggle" data-toggle="collapse"data-target="#micon">
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  </button>
+					  <a href=""><img class="logo"src="E:\Sunanda document\CSE-10thSemester\cv\logo.png.jpeg"></a>
+					  <h1>The Curriculam Vitae Of</h1>
+					  </div>	
+					
+               
+					 
+					    <!---    extar contaner end>---->
+				            <div class="collapse navbar-collapse"id="micon">
+							<!--extra add_-->
+							    <div class="header-items">
+								
+								<!---end-->
+								  <ul class="nav navbar-nav navbar-right">
+								    <div class= "btn-group">
+								    <button type="button" class="btn btn-secondary">Home</button>
+							         </div>
+									
+							    
+                                <div class= "btn-group group">										
+									<button type="button" class="btn btn-Secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">         
+								          Features<span class="caret"></span></button>
+										         <ol class="dropdown-menu" role="menu">
+								
+													<li><a href="#">Personal Information</a></li>
+													<li><a href="#">List of completed Projects</a></li>
+													<li><a href="#">Details of Academic curriculam</a></li>
+												  </ol>
+												 </div> 
+												 
+				
+								<div class= "btn-group">       
+									<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								                 Contacts Types <span class="caret"></span></button>
+							
+											
+												    <ul class="dropdown-menu" role="menu">
+													<a class="dropdown-item" href="#">Mob No:0172345121</a>
+													<a class="dropdown-item" href="#">Email:sunanda@gmail.com</a>
+													<a class="dropdown-item" href="#">Address:Dhaka</a>
+												    </ul>
+			                                      </div>
+								               </ul>    
+									    
+							   </div>
+							   </div>	 
+		<!-----progress bar---->
 
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-4 col-sm-6">Col 1</div>
-      <div class="col-md-4 col-sm-6">Col 2</div>
-      <div class="col-md-4 col-sm-6">Col 3</div>
-    </div>
+				<div class="progress">
+				<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="100"
+					aria-valuemin="0" aria-valuemax="100" style="width:1000%">   
+					
+			           </div>
+					   </div>
+		 <!---progress bar end--->	
+                   	  
+			         </div>   	
+	              </div>			 
+                </nav>	
 
-    <div class="row">
-      <div class="col-md-4 col-sm-6">Col 1</div>
-      <div class="col-md-4 col-sm-6">Col 2</div>
-      <div class="col-md-4 col-sm-6">Col 3</div>
-    </div>
+				
+	    <div class="container-fluid ">
+		   <div class="row">
+			    <div class="col-sm-6">
+				
+				    <h2 class="section_main_title"><strong>Carrier Ojectives:</strong></h2>
+					 
+					  <div class="about-item">
+                         <span>*Study in CSE department i want to do 
+						 something creative in this field.</span>
+						 <span></span>
+				       	 <span>*I have so much attraction in web design
+						 Although i am a new commer in this side</span> 
+						 <span>*I also have an interest in cyber secuity system.
+						 And I want to complte an course in networking and 
+                         security system</span>						 
+						 <span>*Thus I really  wanted to do somthing in Webdesign
+						 and security system deeply !!!
+						 </span>
+					   </div>
+			            
+                    </div>
+					
+				
+				<div class="col-sm-6">
+				    <img class="img-responsive" src="E:\Sunanda document\CSE-10thSemester\cv\work.jpg" alt="Chania">
+					 </div>
+				
+	         </div>
+         </div> 
+		 <!--3 row for details--->
+		 
+		  <div class="container-fluid my-menu3">
+	         <div class="row">
+                <div class="col-lg-4">	
+				   <h2 style="background-color:DodgerBlue;">Personal Information:</h2>
+					  <div  class="section_subtitle">
+					    <li>Name:Sunanda Roy</li>
+						<li>Graduation:Ongoing</li>
+						<li>University:Eastern University</li>
+						<li>Department:CSE</li>
+					    </div>
+					
+					 
+				    <h2 style="background-color:DodgerBlue;">Completed Projects:</h2>
+				
+					    <div  class="section_subtitle">
+						<li> Arduino Based Spyboot</li>
+						<li> Database Projects on ecomerce</li>
+						<li>Objects Oriented Projects on Online builling System</li>
+						</div>	
+					 </div>   
+				
+		
+			
+			     
+	        <div class="col-lg-4 ">	
+				   <h2 style="background-color:DodgerBlue;">SSC</h2>
+				    <div class="para-title">
+				     <li>GPA :5.00 in the scale of 5</li>
+					 <li>Board:Barisal</li>
+					 <li>Group:Science</li>	
+					 <li>School:Pirojpur Govt Girls School</li>
+					 </div>	 
+              
+				   <h2 style="background-color:DodgerBlue;">HSC</h2>
+				     <div class="para-title">
+					 <li>GPA :4.70 in the scale of 5</li>
+					 <li>Board:Barisal</li>
+					 <li>Group:Science</li>	
+					 <li>college:Pirojpur Govt Womens College</li>
+			         </div>
+		      </div>		
+				 
+			          
+           
+		    <div class="col-lg-4 ">	  
+            <h2 style="background-color:DodgerBlue;">Any Comments</h2>			
+		       <div class="comment-box"></div>	
+			       <div class="gympho1 ">
+				 
+					  <button type="button" class="btn btn-info">
+	
+					  <span class="glyphicon glyphicon-envelope"></span> Message
+					     </button>
+					  
+					  <button type="button" class="btn btn-info">
+                          <span class="glyphicon glyphicon-download-alt"></span> Download
+                             </button>
+							 
+					  <button type="button" class="btn btn-info">
+                             <span class="glyphicon glyphicon-print"></span> Print
+                               </button>	
 
-    <div class="row">
-      <div class="col-xs-6">Col 1</div>
-      <div class="col-xs-6">Col 2</div>
-      <div class="col-xs-6">Col 3</div>
-    </div>
-  </div>
+                       <button type="button" class="btn btn-info">
+                            <span class="glyphicon glyphicon-earphone"></span> Phone
+                               </button>	
+                                					   
+		            </div> 
+					<div class="gympho2">
+					 <button type="button" class="btn btn-info">
+                     <span class="glyphicon glyphicon-search"></span>Search
+                      </button>		  
+									  
+									  
+	                <button type="button" class="btn btn-info">
+                     <span class="glyphicon glyphicon-login"></span>Login
+                      </button>	
+                       </div>					  
+		     </div>          
+			 
+       </div>
+  </div>				 
+    
+				
+   </header>
+      	<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
-</html>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>	     
+   </body>
+   </html>
